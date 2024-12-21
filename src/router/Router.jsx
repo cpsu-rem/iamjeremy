@@ -1,22 +1,31 @@
-import {Routes , Route} from "react-router";
+import { Routes, Route } from "react-router";
 import MainLayout from "../layouts/MainLayout";
-import HomePages from "../pages/HomePages";
-import TermsandPolicy from "../pages/TermsandPolicy";
-import Products from "../pages/Products";
+import Home from "../pages/Home";
+import DummyJSON from '../pages/DummyJSON';
+import JSONPlaceholder from '../pages/JSONPlaceholder';
 
 
+import FakeStoreAPI from '../pages/FakeStoreAPI';
+import TermsAndPolicy from "../pages/TermsandPolicy";
 
-const Router = () => {
-    return (
-        <Routes>
-            <Route element={<MainLayout/>}>
-                <Route path="/" element={<HomePages />} />
-                <Route path="/terms" element={<TermsandPolicy />} />
-                <Route path="/products" element={<Products />} />
-                
-            </Route>
-        </Routes>
-    )
+
+function Router() {
+  return (
+    <Routes>
+      <Route element={<MainLayout />}>
+        <Route path="/" element={<Home />} />
+        
+
+        <Route path="/terms" element={<TermsAndPolicy />} />
+        <Route path="/jsonplaceholder" element={<JSONPlaceholder />} />
+
+        <Route path="/dummyjson" element={<DummyJSON />} />
+
+        <Route path="/fakestoreapi" element={<FakeStoreAPI />} />
+       
+      </Route>
+    </Routes>
+  );
 }
 
 export default Router;

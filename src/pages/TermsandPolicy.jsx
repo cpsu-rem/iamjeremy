@@ -1,5 +1,5 @@
 import { ArrowBack } from "@mui/icons-material";
-import { NavLink } from "react-router-dom";
+import { NavLink } from "react-router";
 
 const TermsAndPolicy = () => {
   return (
@@ -11,7 +11,7 @@ const TermsAndPolicy = () => {
 
       <hr className="my-6" />
 
-      {/** General Terms Section */}
+     
       <section className="mb-6">
         <h2 className="text-2xl font-semibold mb-4">1. General Terms</h2>
         <p className="mb-2">1.1 This website is operated by Astral Store. Throughout the site, the terms "we," "us," and "our" refer to Astral Store.</p>
@@ -19,7 +19,6 @@ const TermsAndPolicy = () => {
         <p className="mb-2">1.3 We reserve the right to update or modify these terms at any time without prior notice. It is your responsibility to review the terms regularly.</p>
       </section>
 
-      {/** Products and Pricing Section */}
       <section className="mb-6">
         <h2 className="text-2xl font-semibold mb-4">2. Products and Pricing</h2>
         <p className="mb-2">2.1 We strive to display accurate product information, including descriptions, images, and pricing. However, errors may occur, and we reserve the right to correct any inaccuracies.</p>
@@ -49,7 +48,7 @@ const TermsAndPolicy = () => {
         <p className="mb-2">5.3 For defective or damaged products, please contact our support team within 7 days for assistance.</p>
       </section>
 
-      {/** User Conduct Section */}
+     
       <section className="mb-6">
         <h2 className="text-2xl font-semibold mb-4">6. User Conduct</h2>
         <p className="mb-2">6.1 You agree to use our website only for lawful purposes and in a way that does not infringe on the rights of others.</p>
@@ -61,21 +60,21 @@ const TermsAndPolicy = () => {
         </ul>
       </section>
 
-      {/** Limitation of Liability Section */}
+     
       <section className="mb-6">
         <h2 className="text-2xl font-semibold mb-4">7. Limitation of Liability</h2>
         <p className="mb-2">7.1 We shall not be held liable for any damages arising from your use of our website, including but not limited to direct, indirect, incidental, or consequential damages.</p>
         <p className="mb-2">7.2 Our liability is limited to the maximum extent permitted by law.</p>
       </section>
 
-      {/** Governing Law Section */}
+      
       <section className="mb-6">
         <h2 className="text-2xl font-semibold mb-4">8. Governing Law</h2>
         <p className="mb-2">8.1 These terms and conditions are governed by and construed in accordance with the laws of [Your Country/State].</p>
         <p className="mb-2">8.2 Any disputes will be resolved exclusively in the courts of [Your Jurisdiction].</p>
       </section>
 
-      {/** Contact Information Section */}
+  
       <section className="mb-6">
         <h2 className="text-2xl font-semibold mb-4">9. Contact Information</h2>
         <p className="mb-2">If you have any questions or concerns regarding these terms, please contact us:</p>
