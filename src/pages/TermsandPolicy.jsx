@@ -1,82 +1,72 @@
-import { ArrowBack } from "@mui/icons-material";
-import { NavLink } from "react-router";
+
 
 const TermsAndPolicy = () => {
   return (
     <div className="container mx-auto bg-white shadow-lg rounded-lg p-8">
       <h1 className="text-3xl font-bold text-center mb-6">Terms and Policy</h1>
       <p className="text-gray-600 mb-4">
-        Welcome to Astral Store! By using our website and services, you agree to comply with the following terms and conditions. Please read them carefully before making a purchase or using our platform.
+        Welcome to API Hub! By using our platform to access free APIs for testing purposes, you agree to comply with the following terms and conditions. Please read them carefully before using our services.
       </p>
 
       <hr className="my-6" />
 
-     
       <section className="mb-6">
         <h2 className="text-2xl font-semibold mb-4">1. General Terms</h2>
-        <p className="mb-2">1.1 This website is operated by Astral Store. Throughout the site, the terms "we," "us," and "our" refer to Astral Store.</p>
+        <p className="mb-2">1.1 API Hub is a platform that provides access to a variety of free APIs for testing purposes. Throughout this site, the terms "we," "us," and "our" refer to API Hub.</p>
         <p className="mb-2">1.2 By accessing or using any part of the website, you agree to be bound by these terms and conditions.</p>
         <p className="mb-2">1.3 We reserve the right to update or modify these terms at any time without prior notice. It is your responsibility to review the terms regularly.</p>
       </section>
 
       <section className="mb-6">
-        <h2 className="text-2xl font-semibold mb-4">2. Products and Pricing</h2>
-        <p className="mb-2">2.1 We strive to display accurate product information, including descriptions, images, and pricing. However, errors may occur, and we reserve the right to correct any inaccuracies.</p>
-        <p className="mb-2">2.2 Prices for products are subject to change without notice.</p>
-        <p className="mb-2">2.3 Certain products may be available in limited quantities and are subject to return or exchange only according to our Return Policy.</p>
+        <h2 className="text-2xl font-semibold mb-4">2. Usage of APIs</h2>
+        <p className="mb-2">2.1 The APIs provided on this platform are for testing purposes only. You agree not to use the APIs for any illegal or unauthorized activities.</p>
+        <p className="mb-2">2.2 API access is free, but usage limits may apply depending on the specific API provider’s restrictions. Please check each API’s documentation for details.</p>
+        <p className="mb-2">2.3 We cannot guarantee the availability or accuracy of the APIs provided. If an API is unavailable or experiences issues, we are not liable for any disruption to your testing.</p>
       </section>
 
-      {/** Privacy Policy Section */}
+    
       <section className="mb-6">
         <h2 className="text-2xl font-semibold mb-4">3. Privacy Policy</h2>
         <p className="mb-2">3.1 We value your privacy and are committed to protecting your personal information. Any data collected will be handled in accordance with our Privacy Policy.</p>
         <p className="mb-2">3.2 By using our website, you consent to the collection, use, and disclosure of your information as described in our Privacy Policy.</p>
       </section>
 
-      {/** Shipping and Delivery Section */}
+      
       <section className="mb-6">
-        <h2 className="text-2xl font-semibold mb-4">4. Shipping and Delivery</h2>
-        <p className="mb-2">4.1 We aim to process and ship orders as quickly as possible. Delivery times may vary depending on your location and shipping method.</p>
-        <p className="mb-2">4.2 Customers are responsible for providing accurate shipping information. We are not liable for delays or non-delivery caused by incorrect addresses.</p>
+        <h2 className="text-2xl font-semibold mb-4">4. API Limitations and Restrictions</h2>
+        <p className="mb-2">4.1 Some APIs may have limitations on usage, including rate limits and data access restrictions. These limits are imposed by the API providers and are not under our control.</p>
+        <p className="mb-2">4.2 You agree not to bypass, misuse, or circumvent these limitations. Violating these restrictions may result in temporary or permanent access suspension to the APIs.</p>
       </section>
 
-      {/** Returns and Refunds Section */}
+      
       <section className="mb-6">
-        <h2 className="text-2xl font-semibold mb-4">5. Returns and Refunds</h2>
-        <p className="mb-2">5.1 Products can be returned within 7 days of receipt, provided they are unused, in their original packaging, and accompanied by proof of purchase.</p>
-        <p className="mb-2">5.2 Refunds will be processed once the returned item has been inspected and approved. Shipping costs are non-refundable.</p>
-        <p className="mb-2">5.3 For defective or damaged products, please contact our support team within 7 days for assistance.</p>
-      </section>
-
-     
-      <section className="mb-6">
-        <h2 className="text-2xl font-semibold mb-4">6. User Conduct</h2>
-        <p className="mb-2">6.1 You agree to use our website only for lawful purposes and in a way that does not infringe on the rights of others.</p>
-        <p className="mb-2">6.2 Prohibited activities include:</p>
+        <h2 className="text-2xl font-semibold mb-4">5. User Conduct</h2>
+        <p className="mb-2">5.1 You agree to use our platform and APIs only for lawful purposes and in a way that does not infringe upon the rights of others.</p>
+        <p className="mb-2">5.2 Prohibited activities include:</p>
         <ul className="list-disc list-inside ml-4">
-          <li>Attempting to interfere with the website’s functionality.</li>
-          <li>Using the website to distribute malicious software or spam.</li>
-          <li>Engaging in fraudulent activities.</li>
+          <li>Attempting to interfere with the functionality of APIs or the website.</li>
+          <li>Using the platform to distribute malicious software, spam, or engage in any other harmful activity.</li>
+          <li>Engaging in fraudulent activities, including but not limited to phishing, identity theft, or data scraping.</li>
         </ul>
       </section>
 
      
       <section className="mb-6">
-        <h2 className="text-2xl font-semibold mb-4">7. Limitation of Liability</h2>
-        <p className="mb-2">7.1 We shall not be held liable for any damages arising from your use of our website, including but not limited to direct, indirect, incidental, or consequential damages.</p>
-        <p className="mb-2">7.2 Our liability is limited to the maximum extent permitted by law.</p>
+        <h2 className="text-2xl font-semibold mb-4">6. Limitation of Liability</h2>
+        <p className="mb-2">6.1 We shall not be held liable for any damages arising from your use of our platform or the APIs, including but not limited to direct, indirect, incidental, or consequential damages.</p>
+        <p className="mb-2">6.2 Our liability is limited to the maximum extent permitted by law.</p>
       </section>
 
-      
+   
       <section className="mb-6">
-        <h2 className="text-2xl font-semibold mb-4">8. Governing Law</h2>
-        <p className="mb-2">8.1 These terms and conditions are governed by and construed in accordance with the laws of [Your Country/State].</p>
-        <p className="mb-2">8.2 Any disputes will be resolved exclusively in the courts of [Your Jurisdiction].</p>
+        <h2 className="text-2xl font-semibold mb-4">7. Governing Law</h2>
+        <p className="mb-2">7.1 These terms and conditions are governed by and construed in accordance with the laws of [Your Country/State].</p>
+        <p className="mb-2">7.2 Any disputes will be resolved exclusively in the courts of [Your Jurisdiction].</p>
       </section>
 
-  
+     
       <section className="mb-6">
-        <h2 className="text-2xl font-semibold mb-4">9. Contact Information</h2>
+        <h2 className="text-2xl font-semibold mb-4">8. Contact Information</h2>
         <p className="mb-2">If you have any questions or concerns regarding these terms, please contact us:</p>
         <ul className="list-disc list-inside ml-4">
           <li>Email: jeremycpsu@gmail.com</li>
@@ -85,12 +75,7 @@ const TermsAndPolicy = () => {
         </ul>
       </section>
 
-      <div className="text-center mt-8">
-        <NavLink to="/" className="inline-flex items-center bg-blue-600 text-white px-6 py-3 rounded-lg shadow-lg font-semibold hover:bg-blue-700 transition">
-          <ArrowBack className="mr-2" />
-        
-        </NavLink>
-      </div>
+      
     </div>
   );
 };
