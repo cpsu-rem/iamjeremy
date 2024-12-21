@@ -2,7 +2,7 @@
 
 const TermsAndPolicy = () => {
   return (
-    <div className="container mx-auto bg-white shadow-lg rounded-lg p-8">
+    <div className="container mx-auto bg-white shadow-lg rounded-lg p-8 pt-28">
       <h1 className="text-3xl font-bold text-center mb-6">Terms and Policy</h1>
       <p className="text-gray-600 mb-4">
         Welcome to API Hub! By using our platform to access free APIs for testing purposes, you agree to comply with the following terms and conditions. Please read them carefully before using our services.
